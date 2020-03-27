@@ -3,7 +3,7 @@
 
 _target=or1k-elf
 pkgname=$_target-binutils
-pkgver=2.33.1
+pkgver=2.34
 pkgrel=1
 pkgdesc='A set of programs to assemble and manipulate binary and object files for the OpenRISC 1000 (bare-metal) target'
 arch=(x86_64)
@@ -11,7 +11,7 @@ url='https://www.gnu.org/software/binutils/'
 license=(GPL)
 depends=(zlib)
 source=("https://ftp.gnu.org/gnu/binutils/binutils-$pkgver.tar.bz2"{,.sig})
-sha512sums=('bfdbb49a9002dd9bae8ab3c9347e05bd968ad97837c3e71b046eb8721c45a73db01f880dbdf0911bb37a97be37d6cc3b26d0855964a011f593ccbf1d08641c87'
+sha512sums=('f47e7304e102c7bbc97958a08093e27796b9051d1567ce4fbb723d39ef3e29efa325ee14a1bdcc462a925a7f9bbbc9aee28294c6dc23850f371030f3835a8067'
             'SKIP')
 validpgpkeys=('EAF1C276A747E9ED86210CBAC3126D3B4AE55E93'  # Tristan Gingold <gingold@adacore.com>
               '3A24BC1E8FB409FA9F14371813FCEF89DD9E3C4F') # Nick Clifton (Chief Binutils Maintainer) <nickc@redhat.com>
